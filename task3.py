@@ -15,6 +15,7 @@ class Person(ABC): # pravimo klasu osoba
 class Person(Employee): # pravimo klasu zaposlenih osoba
     broj_ljudi = 0
 
+
     def __init__(self, name, surname, birth, adrees,company,position,years,base_salary):
         super().__init__(name,surname,birth,adrees,company,position,years,base_salary)
         self.name = name

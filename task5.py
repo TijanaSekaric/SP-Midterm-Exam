@@ -1,7 +1,8 @@
 n = int(input("Unesi red kvadratne matrice: "))
 X = []
 
-proizvod_glavne_dijagonale = proizvod_sporedne_dijagonale= 0
+proizvod_glavne_dijagonale = proizvod_sporedne_dijagonale= 1
+
 
 prvi_element = 1
 for i in range(n):

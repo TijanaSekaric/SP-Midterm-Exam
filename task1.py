@@ -1,5 +1,6 @@
 suma = 0
 n=0
+
 print("Unesite broj ili =")
 
 while True:
